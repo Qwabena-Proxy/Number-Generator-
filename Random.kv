@@ -1,0 +1,32 @@
+<MikeRandom>
+  random_label:random_label
+  title:title
+  generate:generate
+  BoxLayout:
+    padding:50
+    orientation:'vertical'
+    size:root.width,root.height
+    Label:
+      text:'Random Number Generator'
+      color:(.92,.45,0)
+      font_size:40
+      id:title
+    Label:
+      text:'-'
+      color:(.92,.45,0)
+      font_size:40
+      id:random_label
+    Button:
+      text:'Generate'
+      font_size:40
+      background_normal:''
+      background_color:(0,0,1,1)
+      color:(1,1,1)
+      id: generate
+      size_hint:(None,None)
+      height:100
+      width:200
+      pos_hint:{'center_x':.5}
+      on_press:root.gen()
+      #padding:50
+    
