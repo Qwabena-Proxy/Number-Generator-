@@ -1,6 +1,6 @@
 # Number-Generator-
 This is a basic code to generate numbers for Android development 
-
+ 
 
 # This is how it looks like 
 
