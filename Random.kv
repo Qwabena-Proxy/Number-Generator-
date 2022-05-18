@@ -2,20 +2,24 @@
   random_label:random_label
   title:title
   generate:generate
+  # initializing layout
   BoxLayout:
     padding:50
     orientation:'vertical'
     size:root.width,root.height
+    # Title label
     Label:
       text:'Random Number Generator'
       color:(.92,.45,0)
       font_size:40
       id:title
+    # Random number label
     Label:
       text:'-'
       color:(.92,.45,0)
       font_size:40
       id:random_label
+    # Generate button
     Button:
       text:'Generate'
       font_size:40
