@@ -21,7 +21,7 @@ class MikeRandom(Widget):
     self.random_label.text=str(random.randint(0,1000))
     self.random_label.color=(a,b,c)
     self.title.color=(c,a,b)
-
+ 
 # App class
 class Random(App):
   def build(self):
