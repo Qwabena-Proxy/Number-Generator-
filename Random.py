@@ -6,6 +6,7 @@ from kivy.properties import ObjectProperty
 from kivy.lang import Builder
 import random
 
+
 # loading kivy language file
 Builder.load_file('Random.kv')
 
